@@ -1,0 +1,35 @@
+---
+title: "CryptoPunks - Data Analysis"
+author: "Albert Campillo"
+date: "10/19/2021"
+output: pdf_document
+---
+
+```{r setup, include=FALSE}
+knitr::opts_chunk$set(echo = TRUE)
+```
+
+## Punks 
+
+xxx *xxx*
+
+```{r}
+
+punks <- punks %>%
+    mutate(punk_img = as.character(punk_img)) %>%
+    separate(., 'punk_attr', paste('punk_attr', 1:7, sep = '_'), sep = ',', extra = 'drop')
+
+```
+
+
+## Punks Transactional
+
+xxx *xxx*
+
+```{r}
+
+punks <- punks %>%
+    mutate(punk_img = as.character(punk_img)) %>%
+    separate(., 'punk_attr', paste('punk_attr', 1:7, sep = '_'), sep = ',', extra = 'drop')
+
+```
